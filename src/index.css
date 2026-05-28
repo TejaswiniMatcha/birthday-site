@@ -13,3 +13,76 @@ body {
 html {
   scroll-behavior: smooth;
 }
+/* MOBILE RESPONSIVE DESIGN */
+
+*{
+  box-sizing: border-box;
+}
+
+html, body{
+  overflow-x: hidden;
+  width: 100%;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+/* Tablets */
+@media (max-width: 768px){
+
+  h1{
+    font-size: 2.2rem !important;
+    text-align: center;
+  }
+
+  h2{
+    font-size: 1.8rem !important;
+    text-align: center;
+  }
+
+  p{
+    font-size: 1rem;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  section{
+    padding: 40px 20px !important;
+  }
+
+  button{
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .hero{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .gallery{
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* Mobile Phones */
+@media (max-width: 480px){
+
+  h1{
+    font-size: 1.8rem !important;
+  }
+
+  h2{
+    font-size: 1.5rem !important;
+  }
+
+  p{
+    font-size: 0.95rem;
+  }
+
+  section{
+    padding: 30px 15px !important;
+  }
+}

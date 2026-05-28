@@ -18,11 +18,11 @@ export default function Gallery({ setPage }) {
 
     <section className="min-h-screen py-24 bg-gradient-to-br from-rose-950 via-red-900 to-pink-900 flex flex-col items-center justify-center overflow-hidden">
 
-      <h2 className="text-6xl font-bold text-center mb-16 text-white">
+      <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-10 md:mb-16 text-white px-4">
         Beautiful Memories 📸
       </h2>
 
-      <div className="max-w-5xl w-full px-6">
+      <div className="max-w-5xl w-full px-4 sm:px-6">
 
         <Swiper
 
@@ -53,9 +53,8 @@ export default function Gallery({ setPage }) {
               <img
   src={img}
   alt={`Memory ${index + 1}`}
-  className="w-full h-[550px] object-contain bg-black/40 backdrop-blur-lg rounded-3xl border-4 border-pink-300 shadow-2xl"
-/>
-
+  className="w-full h-[250px] sm:h-[350px] md:h-[450px] lg:h-[550px] object-contain bg-black/40 backdrop-blur-lg rounded-3xl border-4 border-pink-300 shadow-2xl"
+  />
             </SwiperSlide>
 
           ))}
@@ -66,12 +65,12 @@ export default function Gallery({ setPage }) {
 
       <button
         onClick={() => setPage('wishes')}
-        className="mt-16 text-7xl hover:scale-110 transition duration-300"
+        className="mt-10 md:mt-16 text-5xl md:text-7xl hover:scale-110 transition duration-300"
       >
         🎁
       </button>
 
-      <p className="mt-4 text-pink-200 animate-pulse">
+      <p className="mt-4 text-pink-200 animate-pulse text-center px-4">
         Click the gift
       </p>
 
