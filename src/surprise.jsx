@@ -28,10 +28,9 @@ export default function Surprise({ setPage }) {
 
       {showMessage && (
         <div className="mt-12 text-4xl font-bold animate-pulse text-white">
-            I am genuinely happy that you are my friend.No matter what what comes in the future we will face it together.Don't loose hope,be strong and happy.You'll always have me by your side no matter what happens.You are a bird wandering in the clouds....Don't cut your wings by shattering your hopes.
-          Finally........You Are Amazing ✨💖
+            Can't believe that 2 years had already passed since our journey. Countless memories had been created during this journey and i'm waiting for much more. Silly laughs,mindless jokes,full-off-energy.Let's rock our remaining time and create more memories. Forever grateful for having a friend like you...sanju ✨💖
           
-          Your mrudhula always comes for you....Don't worry Arjun Sarkar!!
+          
         </div>
       )}
 

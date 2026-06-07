@@ -6,9 +6,9 @@ import 'swiper/css'
 import 'swiper/css/pagination'
 import 'swiper/css/navigation'
 
-import photo1 from './assets/A1.jpeg'
-import photo2 from './assets/A2.jpeg'
-import photo3 from './assets/A3.jpeg'
+import photo1 from './assets/s1.jpeg'
+import photo2 from './assets/s2.jpeg'
+import photo3 from './assets/s3.jpeg'
 
 export default function Gallery({ setPage }) {
 

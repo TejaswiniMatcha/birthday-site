@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 
-import song from './assets/prema-velluva.mp3'
+import song from './assets/song.mp3'
 
 export default function Hero({ setPage }) {
 
