@@ -42,7 +42,7 @@ export default function Hero({ setPage }) {
         transition={{ duration: 1.2 }}
         className="text-7xl md:text-9xl font-extrabold text-center drop-shadow-2xl"
       >
-        Abeeda.....😘💖
+        Sanjana.....😘💖
       </motion.h1>
 
       <motion.p
